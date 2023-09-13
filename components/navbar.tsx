@@ -117,6 +117,14 @@ export function Navbar() {
                 </Link>
               </li>
             ))}
+            <li className="mt-8">
+              <Link
+                href="#"
+                className="px-5 py-4 bg-primary hover:bg-[#134761] hover:shadow-lg relative top-0 hover:-top-1 text-white rounded-lg ring-offset-2 focus:ring-2 focus:ring-primary transition-all"
+              >
+                Get Started
+              </Link>
+            </li>
           </ul>
         </div>
       </Drawer>
